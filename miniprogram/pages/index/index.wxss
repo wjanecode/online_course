@@ -1,0 +1,126 @@
+
+
+.container {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.nav_top{
+  width: 750rpx;
+  height: 60rpx;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav_top_icon{
+  width: 300rpx;
+  height: 100%;
+}
+.nav_top_search{
+  width: 250rpx;
+  height: 100%;
+}
+
+.pic_show{
+  width: 750rpx;
+  height: 300rpx;
+}
+.pic_show image{
+  width: 100%;
+  height: 100%;
+}
+
+.category_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 750rpx;
+  height: 150rpx;
+}
+
+.category_item {
+  width: 100rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+}
+
+.category_img {
+  width: 100%;
+  height: 80%;
+}
+.category_text {
+  width: 100%;
+  
+
+}
+
+
+.course_list {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+}
+.course_item{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200rpx;
+  margin-top: 30rpx;
+
+}
+.course_img{
+  width: 450rpx;
+  height: 100%;
+}
+.course_text{
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  width: 300rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.course_name{
+  width: 100%;
+  height: 40rpx;
+}
+.course_name text{
+  width: 100%;
+  color: #000000;
+  font-size: large;
+}
+.course_description{
+  width: 100%;
+  height: 100rpx;
+}
+.course_description text{
+  width: 100%;
+  font-size: small;
+  color: gray;
+}
+.course_bottom{
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.course_bottom_number{
+  color: #000000;
+  font-size: small;
+}
+.course_bottom_price{
+  color: red;
+  font-size: small;
+}
+
+
+

@@ -1,0 +1,167 @@
+<!--index.wxml-->
+<view class="container">
+
+<!-- 顶部导航 -->
+  <view class="nav_top">
+    <image class="nav_top_icon" src="/images/index/logo.4ba874d.png" mode="aspectFit" />
+    
+    <image class="nav_top_search" src="/images/index/search.f2a123d.png" mode="aspectFit" />
+  </view>
+  
+<!-- 轮播图  -->
+  <view class="pic_show">
+    <image class="" src="/images/index/5e69a12e21254d9eaf3484bc5792437f.jpg" mode="widthFix"  />
+  </view>
+
+<!-- 分类标签 -->
+  <view class="category_list">
+    <view class="category_item">
+      <image class="category_img" src="/images/index/search.f2a123d.png" mode="aspectFit">
+      </image>
+      <text class="category_text">就业课</text>
+    </view>
+    <view class="category_item">
+      <image class="category_img" src="/images/index/search.f2a123d.png" mode="aspectFit"></image>
+      <text class="category_text">就业课</text>
+    </view>
+    <view class="category_item">
+      <image class="category_img" src="/images/index/search.f2a123d.png" mode="aspectFit"></image>
+      <text class="category_text">就业课</text>
+    </view>
+    <view class="category_item">
+      <image class="category_img" src="/images/index/search.f2a123d.png" mode="aspectFit"></image>
+      <text class="category_text">就业课</text>
+    </view>
+  
+  </view>
+
+<!-- 具体课程列表 -->
+  <view class="course_list" hover-class="none" hover-stop-propagation="false">
+    <view class="course_item">
+      <image class="course_img" src="/images/index/search.f2a123d.png" mode="aspectFit"/>
+      <view class="course_text" >
+        <view class="course_name" >
+          <text class="" selectable="false" space="false" decode="false">
+            java
+          </text>
+        </view>
+        <view class="course_description" >
+          <text class="" selectable="false" space="false" decode="false">
+            学习java
+          </text>
+        </view>
+        <view class="course_bottom">
+          <text class="course_bottom_number" selectable="false" space="false" decode="false">
+            2123人在学
+          </text>
+          <text class="course_bottom_price" selectable="false" space="false" decode="false">
+            $1000
+          </text>
+        </view>
+      </view>
+      
+    </view>
+   
+
+
+    <view class="category_item"></view>
+    <view class="category_item"></view>
+    <view class="category_item"></view>
+  </view>
+  <view class="course_list" hover-class="none" hover-stop-propagation="false">
+    <view class="course_item">
+      <image class="course_img" src="/images/index/search.f2a123d.png" mode="aspectFit" />
+      <view class="course_text">
+        <view class="course_name">
+          <text class="" selectable="false" space="false" decode="false">java</text>
+        </view>
+        <view class="course_description">
+          <text class="" selectable="false" space="false" decode="false">学习java</text>
+        </view>
+        <view class="course_bottom">
+          <text class="course_bottom_number" selectable="false" space="false" decode="false">
+            2123人在学
+          </text>
+          <text class="course_bottom_price" selectable="false" space="false" decode="false">
+            $1000
+          </text>
+        </view>
+      </view>
+    </view>
+    <view class="category_item"></view>
+    <view class="category_item"></view>
+    <view class="category_item"></view>
+  </view>
+  <view class="course_list" hover-class="none" hover-stop-propagation="false">
+    <view class="course_item">
+      <image class="course_img" src="/images/index/search.f2a123d.png" mode="aspectFit" />
+      <view class="course_text">
+        <view class="course_name">
+          <text class="" selectable="false" space="false" decode="false">java</text>
+        </view>
+        <view class="course_description">
+          <text class="" selectable="false" space="false" decode="false">学习java</text>
+        </view>
+        <view class="course_bottom">
+          <text class="course_bottom_number" selectable="false" space="false" decode="false">
+            2123人在学
+          </text>
+          <text class="course_bottom_price" selectable="false" space="false" decode="false">
+            $1000
+          </text>
+        </view>
+      </view>
+    </view>
+    <view class="category_item"></view>
+    <view class="category_item"></view>
+    <view class="category_item"></view>
+  </view>
+  <view class="course_list" hover-class="none" hover-stop-propagation="false">
+    <view class="course_item">
+      <image class="course_img" src="/images/index/search.f2a123d.png" mode="aspectFit" />
+      <view class="course_text">
+        <view class="course_name">
+          <text class="" selectable="false" space="false" decode="false">java</text>
+        </view>
+        <view class="course_description">
+          <text class="" selectable="false" space="false" decode="false">学习java</text>
+        </view>
+        <view class="course_bottom">
+          <text class="course_bottom_number" selectable="false" space="false" decode="false">
+            2123人在学
+          </text>
+          <text class="course_bottom_price" selectable="false" space="false" decode="false">
+            $1000
+          </text>
+        </view>
+      </view>
+    </view>
+    <view class="category_item"></view>
+    <view class="category_item"></view>
+    <view class="category_item"></view>
+  </view>
+  <view class="course_list" hover-class="none" hover-stop-propagation="false">
+    <view class="course_item">
+      <image class="course_img" src="/images/index/search.f2a123d.png" mode="aspectFit" />
+      <view class="course_text">
+        <view class="course_name">
+          <text class="" selectable="false" space="false" decode="false">java</text>
+        </view>
+        <view class="course_description">
+          <text class="" selectable="false" space="false" decode="false">学习java</text>
+        </view>
+        <view class="course_bottom">
+          <text class="course_bottom_number" selectable="false" space="false" decode="false">
+            2123人在学
+          </text>
+          <text class="course_bottom_price" selectable="false" space="false" decode="false">
+            $1000
+          </text>
+        </view>
+      </view>
+    </view>
+    <view class="category_item"></view>
+    <view class="category_item"></view>
+    <view class="category_item"></view>
+  </view>
+</view>
