@@ -36,4 +36,20 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+    /**
+     * 登录页面,已登录直接跳转到管理页面
+     */
+    public function index(){
+        //如果已登录,跳到管理页
+        if(auth()->check()){
+            return redirect($this->redirectTo);
+            //return redirect()->route('admin.index.index');
+        }
+
+        //未登录,跳转登录页
+        return view('auth.login');
+    }
+
+
 }

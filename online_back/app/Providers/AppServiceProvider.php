@@ -2,7 +2,10 @@
 
 namespace App\Providers;
 
+use App\Observers\PermissionObserver;
+use App\Permission;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+
     }
 
     /**
@@ -23,6 +26,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        //本地数据库版本问题,string最大长度只有191,laravel默认的会超限
+        Schema::defaultStringLength(191);
+        //权限观察者
+        Permission::observe(PermissionObserver::class);
     }
 }

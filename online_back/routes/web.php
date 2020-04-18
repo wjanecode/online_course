@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Auth\LoginController@index');
+
+Auth::routes();
+
+
+
+//引入后台路由
+include "admin/admin.php";
+//引入组件路由
+include "component/component.php";
